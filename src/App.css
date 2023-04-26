@@ -1,0 +1,21 @@
+#ace-editor{
+    height: 340px !important;
+    color: #000 !important;
+}
+.ace_gutter, .ace_scroller{
+    background-color: #1d1e22 !important;
+}
+
+.ace_editor{
+    width: 100% !important;
+    height: 91% !important;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        flex-direction: column;
+        height: 100vh !important;
+        gap: 1.5rem !important;
+    }
+
+}
